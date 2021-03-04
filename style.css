@@ -4,7 +4,7 @@
     padding: 0;
 }
 
- /* header */
+ /* header top*/
 
 .wrapper {
     width: 1024px;
@@ -13,18 +13,15 @@
 
 .bg-light {
     background-color: rgb(245, 249, 253);
-
-}
-.bg-light {
-     background-color: rgb(245, 249, 253);
 }
 
 .wrapper {
     width: 1024px;
 }
 
-header .nav-top{
+header nav{
     padding: 10px 0;
+    height: 60px;
 }
 
 .float-right {
@@ -45,19 +42,18 @@ header nav ul li {
     display: inline-block;
 }
 
-header nav select.language {
+.select-transparent {
     border: none;
     background-color: transparent;
     margin-right: 10px;
     color: rgb(66, 84, 99);
 }
 
-header nav .nav-top-left ul li a {
+header nav ul li a {
     text-decoration: none;
     margin-left: 10px;
     padding: 10px;
     color: rgb(66, 84, 99);
-
 }
 
 header nav .nav-top-left ul li div {
@@ -94,3 +90,56 @@ button {
     color: white;
 }
 
+/* header bottom */
+
+header .nav-bottom .nav-bottom-left {
+    height: 42px;
+    width: 100px;
+}
+
+/* hero */
+
+main .hero {
+    /* height: 500px; */
+    background-color: red;
+}
+
+main .hero .container-h1 {
+    width: 50%;
+    /* height: 500px; */
+    background-color: gray;
+    padding: 50px 0 80px 0;
+}
+
+.contained-h1 {
+    width: 90%;
+    height: 70%;
+    background-color: green;
+    top: 10%;
+    color: rgb(55, 71, 89);
+}
+
+main .hero .container-h1 .contained-h1 > * {
+    margin-bottom: 30px;
+}
+
+main .hero .container-h1 .contained-h1 button {
+    padding: 20px;
+}
+
+.font-size-small {
+    font-size: 10px;
+}
+
+
+
+
+
+/* divider */
+
+.divider {
+    height: 60px;
+    background-color: rgb(187, 233, 228);
+    border-top: 1px solid rgb(66, 84, 99);
+    border-bottom: 1px solid rgb(66, 84, 99);
+}
