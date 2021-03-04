@@ -84,7 +84,7 @@ button {
     color: rgb(238, 126, 98);
 }
 
-.button-green {
+.button-orange {
     background-color: rgb(238, 126, 98);
     border: none;
     color: white;
@@ -93,29 +93,30 @@ button {
 /* header bottom */
 
 header .nav-bottom .nav-bottom-left {
-    height: 42px;
-    width: 100px;
+    position: relative;
+    top: 5px;
+}
+
+header .nav-bottom .nav-bottom-right {
+    padding-top: 10px;
 }
 
 /* hero */
 
 main .hero {
-    /* height: 500px; */
-    background-color: red;
+    background-image: url(img/jumbotron.png);
+    background-size: 67%;
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-color: rgb(253, 246, 240); /* per completare il background */
 }
 
 main .hero .container-h1 {
     width: 50%;
-    /* height: 500px; */
-    background-color: gray;
     padding: 50px 0 80px 0;
 }
 
-.contained-h1 {
-    width: 90%;
-    height: 70%;
-    background-color: green;
-    top: 10%;
+.color-text{
     color: rgb(55, 71, 89);
 }
 
@@ -131,15 +132,107 @@ main .hero .container-h1 .contained-h1 button {
     font-size: 10px;
 }
 
-
-
-
-
 /* divider */
 
 .divider {
     height: 60px;
     background-color: rgb(187, 233, 228);
-    border-top: 1px solid rgb(66, 84, 99);
-    border-bottom: 1px solid rgb(66, 84, 99);
+    border-top: 2px solid rgb(66, 84, 99);
+    border-bottom: 2px solid rgb(66, 84, 99);
+}
+
+/* prima sezione */
+/* prima row */
+
+.bg-lightblue {
+    background-color: rgb(245, 249, 252);
+}
+
+.padding {
+    padding: 30px 0;
+}
+
+main section .container {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+main section .container .square-box {
+    width: 200px;
+    margin: auto;
+}
+
+main section .container .square-box img {
+    width: 100%;
+}
+
+main section .container h2 {
+    margin-bottom: 20px;
+}
+
+.bg-white {
+    background-color: white;
+    border-radius: 5px;
+    border: 1.5px solid rgb(232, 237, 242);
+}
+
+section .row {
+    padding: 50px 40px;
+}
+
+section .row .row-left {
+    width: 33.3%;
+}
+section .row .row-right {
+    width: 66.6%;
+}
+
+section .row .contained-row-left {
+    width: 70%;
+    height: 100%;
+    margin: auto;
+    text-align: center;
+}
+
+section .row .contained-row-left img {
+    width: 60%;
+}
+
+section .row .row-left button {
+    padding: 20px 30px;
+    margin-top: 15px;
+} 
+
+.contained-row-right > * {
+    margin-bottom: 25px;
+}
+
+.row .contained-row-right h4 {
+    display: inline-block;
+}
+
+.row .contained-row-right div.hr {
+    display: inline-block;
+    border-top: 2px solid rgb(138, 139, 141);
+    width: 60%;
+    margin-left: 30px;
+    position: relative;
+    top: 20px;
+}
+
+.row .row-right .contained-row-right .check {
+    background-color: rgb(75, 235, 75);
+    border-radius: 50%;
+    display: inline-block;
+    width: 15px;
+    text-align: center;
+    color: white;
+    line-height: 15px;
+    font-size: 10px;
+}
+
+.contained-row-right span {
+    margin: 0 15px;
 }
