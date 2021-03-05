@@ -245,7 +245,7 @@ section .row .row-right .contained-row-right > * {
 /* seconda row  */
 
 .colum {
-    width: calc(33.3% - 40px);
+    width: calc(33.3% - 20px);
     height: 600px;
     padding: 30px;
     position: relative;
@@ -289,7 +289,96 @@ section .row .colum button {
 }
 
 section .row .colum:nth-child(2) {
-    margin-left: 60px;
-    margin-right: 60px;
+    margin: 0 30px;
 }
 
+/* seconda sezione  */
+
+.bg-bluegreen {
+    background-color: rgb(78, 174, 174);
+    height: 600px;
+}
+
+section.bg-bluegreen .row {
+    /* height: 500px; */
+    width: 100%;
+    /* border: 1px solid black; */
+    color: white;
+    text-align: center;
+}
+
+section.bg-bluegreen .row > * {
+    margin-bottom: 50px;
+}
+
+section .row .container-table .container-item-table {
+    width: 25%;
+}
+
+section .row .container-table .container-item-table > * {
+    margin: 20px 0;
+}
+
+section .row .container-table .container-item-table h2 {
+    font-size: 35px;
+}
+
+section .row .container-table .container-item-table p {
+    font-size: 12px;
+}
+
+.border-right-white {
+    border-right: 1px solid white;
+}
+
+.border-bottom-white {
+    border-bottom: 1px solid white;
+}
+
+/* terza sezione  */
+
+.container-rows {
+    height: 700px;
+    border: 1px solid black;
+}
+
+.container-rows .row {
+    height: 300px;
+    background-color: yellow;
+}
+
+.container-rows .row .row-left {
+    width: 33.3%;
+    /* height: 200px; */
+    border: 1px solid black;
+}
+
+.container-rows .row .row-left .contained-row-left h2 {
+    margin-bottom: 20px;
+    font-size: 45px;
+}
+.container-rows .row .row-left .contained-row-left p {
+    margin-bottom: 5px;
+}
+.container-rows .row .row-left .contained-row-left h2 {
+    margin-top: 20px;
+}
+
+.container-rows .row .row-right {
+    width: 66.6%;
+    height: 200px;
+    border: 1px solid black;
+}
+
+/* .container-rows .row .row-right .contained-row-right {
+    padding: 10px 30px;
+} */
+
+.container-rows .row .row-right .contained-row-right .container-img {
+    width: 25%;
+    background-color: blue;
+}
+
+.container-rows .row .row-right .contained-row-right .container-img img {
+    width: 90%;
+}
