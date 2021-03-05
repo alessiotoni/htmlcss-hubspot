@@ -396,7 +396,75 @@ section .row .container-table .container-item-table p {
 
 /* footer  */
 
-footer {
+.bg-color-dark {
     background-color: rgb(55, 73, 89);
-    height: 500px;
+}
+
+.container-footer .container-colum {
+    width: 25%;
+}
+
+.container-footer .container-colum h4 {
+    color: white;
+    margin-bottom: 20px;
+}
+
+.container-footer .container-colum ul li {
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: rgb(204, 213, 224);
+}
+
+.container-footer .container-colum ul li button {
+    background-color: rgb(219, 222, 224);
+    border: none;
+    padding: 10px;
+    color: rgb(55, 73, 89);
+}
+
+.container-footer .container-colum ul.icon li {
+    margin-right: 20px;
+    display: inline-block;
+}
+
+footer .row-languages {
+    margin-top: 40px;
+    border-bottom: 1px solid rgb(219, 222, 224);
+    padding-bottom: 20px;
+}
+
+footer .row-languages ul li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+footer .row-languages ul {
+    text-align: center;
+}
+
+footer .footer-bottom {
+    margin-top: 10px;
+    padding-top: 10px;
+}
+
+footer .footer-bottom > div {
+    width: 50%;
+}
+
+footer .footer-bottom .footer-bottom-left {
+    color: rgb(240, 244, 244);
+}
+
+footer .footer-bottom-right .container-footer-bottom-right {
+    text-align: right;
+}
+
+footer .footer-bottom .footer-bottom-right a {
+    text-decoration: none;
+    color: rgb(219, 222, 224);
+    margin-left: 20px;
 }
