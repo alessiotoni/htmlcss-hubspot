@@ -337,48 +337,66 @@ section .row .container-table .container-item-table p {
 
 /* terza sezione  */
 
-.container-rows {
-    height: 700px;
-    border: 1px solid black;
-}
+/* prima row  */
 
-.container-rows .row {
+.container-rows .row-top {
     height: 300px;
-    background-color: yellow;
+    padding: 40px 20px;
+    text-align: center;
 }
 
-.container-rows .row .row-left {
+.container-rows .row-top .row-left {
     width: 33.3%;
-    /* height: 200px; */
-    border: 1px solid black;
+    position: relative;
+    bottom: 50px;
 }
 
-.container-rows .row .row-left .contained-row-left h2 {
+.container-rows .row-top .row-left .contained-row-left h2 {
     margin-bottom: 20px;
     font-size: 45px;
 }
-.container-rows .row .row-left .contained-row-left p {
+.container-rows .row-top .row-left .contained-row-left p {
     margin-bottom: 5px;
 }
-.container-rows .row .row-left .contained-row-left h2 {
+.container-rows .row-top .row-left .contained-row-left h2 {
     margin-top: 20px;
 }
 
-.container-rows .row .row-right {
+.container-rows .row-top .row-right {
     width: 66.6%;
-    height: 200px;
-    border: 1px solid black;
 }
 
-/* .container-rows .row .row-right .contained-row-right {
-    padding: 10px 30px;
-} */
-
-.container-rows .row .row-right .contained-row-right .container-img {
+.container-rows .row-top .row-right .contained-row-right .container-img {
     width: 25%;
-    background-color: blue;
+    height: 50px;
 }
 
-.container-rows .row .row-right .contained-row-right .container-img img {
-    width: 90%;
+.container-rows .row-top .row-right .contained-row-right .container-img img {
+    width: 80%;
+    object-fit: contain;
+}
+
+/* seconda row  */
+
+.container-rows .row-but .container-h2 > div {
+    width: 50%;
+    height: 300px;
+}
+
+.container-rows .row-but .container-img {
+    background-image: url(img/woman.webp);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.container-rows .row-but .container-h2 .contained-h2 > *{
+    margin-bottom: 30px;
+}
+
+/* footer  */
+
+footer {
+    background-color: rgb(55, 73, 89);
+    height: 500px;
 }
