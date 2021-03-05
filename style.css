@@ -40,6 +40,11 @@ html {
     float: left;
 }
 
+.inline-block {
+    display: inline-block;
+    vertical-align: middle;
+}
+
 button {
     border-radius: 5px;
     padding: 5px;
@@ -80,7 +85,6 @@ button {
 .check {
     background-color: rgb(75, 235, 75);
     border-radius: 50%;
-    display: inline-block;
     width: 15px;
     text-align: center;
     color: white;
@@ -88,7 +92,7 @@ button {
     font-size: 10px;
 }
 
- /* header top*/
+ /* header top */
 
 .bg-light {
     background-color: rgb(245, 249, 253);
@@ -96,10 +100,6 @@ button {
 
 header nav{
     line-height: 60px;
-}
-
-header nav ul li {
-    display: inline-block;
 }
 
 header nav ul li a {
@@ -156,21 +156,20 @@ main .hero .container-h1 .contained-h1 > * {
 }
 
 /* prima sezione */
-/* prima row */
 
 .bg-lightblue {
     background-color: rgb(245, 249, 252);
 }
 
 main section .container {
-    width: 70%;
+    padding: 0 130px;
     margin: auto;
     text-align: center;
     margin-bottom: 30px;
 }
 
 main section .container .square-box {
-    width: 200px;
+    width: 250px;
     margin: auto;
 }
 
@@ -181,6 +180,9 @@ main section .container .square-box img {
 main section .container h2 {
     margin-bottom: 20px;
 }
+
+/* prima row */
+
 
 .bg-white {
     background-color: white;
@@ -215,17 +217,10 @@ section .row .row-right .contained-row-right > * {
     margin-bottom: 25px;
 }
 
-.row .contained-row-right h4 {
-    display: inline-block;
-}
-
 .row .contained-row-right div.hr {
-    display: inline-block;
     border-top: 2px solid rgb(138, 139, 141);
     width: 60%;
     margin-left: 30px;
-    position: relative;
-    top: 20px;
 }
 
 .contained-row-right span {
@@ -354,8 +349,6 @@ section .row .container-table .container-item-table p {
 }
 
 .row-right .row-right-img img {
-    display: inline-block;
-    vertical-align: middle;
     width: 24%;
 }
 
@@ -412,7 +405,6 @@ footer ul li a {
 
 .container-footer .container-colum ul.icon li {
     margin-right: 20px;
-    display: inline-block;
 }
 
 footer .row-languages {
@@ -422,7 +414,6 @@ footer .row-languages {
 }
 
 footer .row-languages ul li {
-    display: inline-block;
     margin: 0 10px;
 }
 
@@ -452,3 +443,4 @@ footer .footer-bottom .footer-bottom-right a {
     color: rgb(219, 222, 224);
     margin-left: 20px;
 }
+
