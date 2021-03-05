@@ -91,6 +91,13 @@ button {
     color: white;
 }
 
+.button-orange-large {
+    background-color: rgb(238, 126, 98);
+    border: none;
+    color: white;
+    padding: 20px;
+}
+
 /* header bottom */
 
 header .nav-bottom .nav-bottom-left {
@@ -119,10 +126,6 @@ main .hero .container-h1 {
 
 main .hero .container-h1 .contained-h1 > * {
     margin-bottom: 30px;
-}
-
-main .hero .container-h1 .contained-h1 button {
-    padding: 20px;
 }
 
 .font-size-small {
@@ -175,8 +178,8 @@ main section .container h2 {
     border: 1.5px solid rgb(232, 237, 242);
 }
 
-section .row {
-    padding: 50px 40px;
+.row {
+    margin-top: 30px;
 }
 
 section .row .row-left {
@@ -185,6 +188,11 @@ section .row .row-left {
 section .row .row-right {
     width: 66.6%;
 }
+
+section .row .row-left,
+section .row .row-right {
+    padding: 50px 20px;
+} 
 
 section .row .contained-row-left {
     width: 70%;
@@ -202,7 +210,7 @@ section .row .row-left button {
     margin-top: 15px;
 } 
 
-.contained-row-right > * {
+section .row .row-right .contained-row-right > * {
     margin-bottom: 25px;
 }
 
@@ -219,7 +227,7 @@ section .row .row-left button {
     top: 20px;
 }
 
-.row .row-right .contained-row-right .check {
+.check {
     background-color: rgb(75, 235, 75);
     border-radius: 50%;
     display: inline-block;
@@ -233,3 +241,55 @@ section .row .row-left button {
 .contained-row-right span {
     margin: 0 15px;
 }
+
+/* seconda row  */
+
+.colum {
+    width: calc(33.3% - 40px);
+    height: 600px;
+    padding: 30px;
+    position: relative;
+}
+
+section .row .colum h3,
+section .row .colum p,
+section .row .colum h4,
+section .row .colum .container-img,
+section .row .colum .container-check {
+    margin-bottom: 25px;
+}
+
+section .row .colum div.container-img {
+    width: 50%;
+    height: 120px;
+    margin: auto;
+    margin-bottom: 20px;
+
+}
+
+section .row .colum div img {
+    width: 100%;
+}
+
+section .row .colum h3,
+section .row .colum p,
+section .row .colum h4 {
+    text-align: center;
+}
+
+section .row .colum p {
+    height: 150px;
+    border-bottom: 1px solid gray;
+}
+
+section .row .colum button {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+section .row .colum:nth-child(2) {
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
