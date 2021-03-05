@@ -246,9 +246,7 @@ section .row .row-right .contained-row-right > * {
 
 .colum {
     width: calc(33.3% - 20px);
-    height: 600px;
     padding: 30px;
-    position: relative;
 }
 
 section .row .colum h3,
@@ -269,6 +267,11 @@ section .row .colum div.container-img {
 
 section .row .colum div img {
     width: 100%;
+    max-height: 120px;
+}
+
+section .row .colum h3 {
+    margin-top: 40px;
 }
 
 section .row .colum h3,
@@ -283,9 +286,8 @@ section .row .colum p {
 }
 
 section .row .colum button {
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
+    display: block;
+    margin: auto;
 }
 
 section .row .colum:nth-child(2) {
@@ -366,14 +368,10 @@ section .row .container-table .container-item-table p {
     width: 66.6%;
 }
 
-.container-rows .row-top .row-right .contained-row-right .container-img {
-    width: 25%;
-    height: 50px;
-}
-
-.container-rows .row-top .row-right .contained-row-right .container-img img {
-    width: 80%;
-    object-fit: contain;
+.row-right .row-right-img img {
+    display: inline-block;
+    vertical-align: middle;
+    width: 24%;
 }
 
 /* seconda row  */
