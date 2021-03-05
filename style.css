@@ -407,6 +407,10 @@ footer ul li a {
     margin-right: 20px;
 }
 
+.container-footer .container-colum ul.icon li img {
+    height: 15px;
+}
+
 footer .row-languages {
     margin-top: 40px;
     border-bottom: 1px solid rgb(219, 222, 224);
