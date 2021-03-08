@@ -14,10 +14,6 @@ html {
     margin: auto;
 }
 
-.wrapper {
-    width: 1024px;
-}
-
 .color-text{
     color: rgb(55, 71, 89);
 }
@@ -122,9 +118,8 @@ header nav .nav-top-right ul li button {
 
 /* header bottom */
 
-header .nav-bottom .nav-bottom-left {
-    position: relative;
-    top: 10px;
+header .nav-bottom .nav-bottom-left img {
+    vertical-align: middle;
 }
 
 /* hero */
