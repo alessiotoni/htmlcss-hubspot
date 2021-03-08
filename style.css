@@ -3,11 +3,20 @@
     margin: 0;
     padding: 0;
 }
+
 html {
     font-family: 'Roboto', sans-serif;
 }
 
 /* utility classe */
+
+li:hover a {
+    text-decoration: underline;
+}
+
+a {
+    text-decoration: none;
+}
 
 .wrapper {
     width: 1024px;
@@ -99,7 +108,6 @@ header nav{
 }
 
 header nav ul li a {
-    text-decoration: none;
     padding: 0 10px;
     color: rgb(66, 84, 99);
 }
@@ -438,8 +446,6 @@ footer .footer-bottom-right .container-footer-bottom-right {
 }
 
 footer .footer-bottom .footer-bottom-right a {
-    text-decoration: none;
     color: rgb(219, 222, 224);
     margin-left: 20px;
 }
-
